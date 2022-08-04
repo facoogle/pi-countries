@@ -1,0 +1,125 @@
+.ContainerCreate{
+  background-color: aqua;
+}
+
+
+.CreateActivity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  height: 100%;
+  padding: 20px;
+  
+}
+
+.CreateCard {
+  border-radius: 2px;
+  border: blue solid 1px;
+  background-color: white;
+  padding: 20px;
+  
+}
+
+.TituloCrear{
+  color:black;
+  font-size: 30px;
+}
+
+.inputActivities{
+    position:relative;
+	margin-bottom:25px;
+}
+
+.labelActivity{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:16px;
+	color:#fff;	
+    pointer-events: none;
+	
+}
+.linea{ 
+  border:0;
+  border-bottom:1px solid #555;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color: black;
+}
+.linea:focus{ 
+    border:none;	
+    outline:none;
+    border-bottom:1px solid blue;	
+}
+
+.btnActivity{
+  top: 45%;
+  left: 38%;
+  margin: -25px 0 0 -25px;
+  border-radius: 17px;
+  border: 1px solid #ffffff;
+  color: white;
+  padding: 20px 50px;
+  background: #43cea2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  cursor:pointer;
+}
+
+
+
+
+
+.textArea{
+  
+ 
+  
+  
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 50px;
+  
+
+}
+
+.countrieAndButton{
+  font-size: 25px;
+  color: white;
+  border-radius: 3px;
+  border: 2px solid wheat;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background: #43cea2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  max-width: 230px;
+  min-width: 230px;
+}
+
+.BotonBorrar{
+  
+  background: #ED213A; 
+background: -webkit-linear-gradient(to right, #93291E, #ED213A);  
+background: linear-gradient(to right, #93291E, #ED213A); 
+color: white;
+border-radius: 3px;
+margin: 2px;
+
+  
+}
+
+
+.BotonBorrar:hover{
+  background: grey;
+  color: black;
+
+  
+}
+
+
+

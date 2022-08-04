@@ -1,0 +1,34 @@
+.NavBar{
+    background: #43cea2;  
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  
+    background: linear-gradient(to right, #185a9d, #43cea2); 
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.NavBarName{
+    color:white;
+    font-size: 25px;
+}
+
+.NavContent{
+    justify-content: space-around ;
+    display: inline-flex;
+    width: 50%;
+}
+
+.NavLink{
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    
+}
+
+.NavLink:hover{
+    color: white;
+    text-shadow: black 2px 2px 3px;
+    
+}

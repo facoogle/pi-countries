@@ -1,0 +1,14 @@
+.Page404 h1{
+    font-size:  100px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Page404 h1 {
+        font-size: 30px;
+    }
+
+    .Page404 img{
+        max-width: 200px;
+    }
+  }

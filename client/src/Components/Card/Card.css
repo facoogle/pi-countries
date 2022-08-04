@@ -1,0 +1,46 @@
+.cardContainer {
+  background: #43cea2;  
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  
+    background: linear-gradient(to right, #185a9d, #43cea2); 
+  
+  
+  
+  width: 18vw;
+  height: 17rem;
+  margin: 1px 0 2px 0;
+  display: flex;
+  font-size: medium;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  border: black solid 3px;
+}
+
+.infoConteiner {
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-end;
+  height: 70%;
+  width: 90%;
+}
+
+.cardImg {
+  width: 30%;
+  border-radius: 1px;
+}
+
+.content {
+  margin: 1rem 0 0 0;
+}
+
+
+.cardContainer:hover {
+  background-color: green;
+  border: green solid 3px;
+}

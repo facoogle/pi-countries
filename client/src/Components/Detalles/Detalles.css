@@ -1,0 +1,46 @@
+.Detalles{
+    background-color: green;
+    padding: 30px;
+    
+}
+
+.DetallesCard{
+    background: #43cea2;  
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  
+    background: linear-gradient(to right, #185a9d, #43cea2); 
+    color: white;
+    display: grid;
+    border-radius: 4px;
+}
+
+.MiniCardActivity{
+    background-color: aqua;
+    color: white;
+    border: 2px solid white;
+    background: #43cea2;  
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  
+    background: linear-gradient(to right, #185a9d, #43cea2); 
+    border-radius: 4px;
+    padding: 10px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.DetallesImage{
+    width: 40%;
+    margin: auto;
+    border-radius: 4px;
+    
+}
+
+.one{
+    margin: 25px;
+    
+}
+
+.ContainerCardsActivities{
+    border: black solid 3px;
+    margin: 5px;
+    text-shadow: black 2px 2px 3px;
+}
