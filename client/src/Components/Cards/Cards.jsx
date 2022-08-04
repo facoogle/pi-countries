@@ -198,7 +198,7 @@ function handleSelectContinente(e){
 
       <div className='cardsBox'>  
               
-        { !countries?<h1>CARGANDO</h1>:
+        { !countries.length?<h1>CARGANDO</h1>:
         currentCountry?.map((country) => {
             
           return (
