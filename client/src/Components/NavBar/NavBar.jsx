@@ -9,7 +9,7 @@ export default function NavBar(){
     return(
 
         <div className="NavBar">
-        <div className="NavBarName">PAISES-ACTIVIDADES</div>
+       <Link style={{ textDecoration:'none'}} to='/'> <div className="NavBarName">PAISES-ACTIVIDADES</div></Link>
         <div className="NavContent">
         <a href="/home/" className='NavLink'>Home</a>
         

@@ -63,7 +63,6 @@ export default function Cards() {
   const currentCountry = countries.slice(firstCountry, lastCountry);   
   const [, setOrden] = useState("");
  
-
   const paginado = (pageNumber) => {
     setCurrentPage(pageNumber)
   };
@@ -144,12 +143,21 @@ function handleSelectContinente(e){
     <div className="Search">
     <p>Busca un pais</p>
       <form onSubmit={onSubmitSearchbar}>
-            <input type="text" onChange={onInputChangeSearchbar} value={inputSearchBar}/>
-            <input className="{button}" type="submit" value="Buscar Pais"/>
+            <input 
+   list="listframe" type="text" onChange={onInputChangeSearchbar} value={inputSearchBar}/>
+            <input className="" type="submit" value="Buscar Pais"/>
         </form>
     </div>
-
-
+   
+    <datalist className="datalist" type="search" id="listframe">
+      {countries?.map(el => 
+        
+          <option  value={el.name}>{el.name}</option>
+          
+        
+        )}
+         </datalist>
+       
 
     <div className="OrdenAlfabetico">
     <p>Ordenar alfabeticamente</p>

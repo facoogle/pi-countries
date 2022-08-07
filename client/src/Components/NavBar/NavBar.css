@@ -12,6 +12,8 @@
 .NavBarName{
     color:white;
     font-size: 25px;
+    
+   
 }
 
 .NavContent{
@@ -31,4 +33,9 @@
     color: white;
     text-shadow: black 2px 2px 3px;
     
+}
+
+.Link{
+    color: inherit;
+    text-decoration: inherit;
 }

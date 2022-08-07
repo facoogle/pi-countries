@@ -42,6 +42,7 @@ router.get('/countries/:id', async (req,res,next)=>{
 
 
 
+
 router.post('/activities', async (req,res,next)=>{
     const {nombre,dificultad,duracion,temporada,countryId} = req.body
     

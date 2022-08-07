@@ -5,6 +5,10 @@ const axios = require('axios');
 
 
 
+
+
+
+
 async function getApi(){
     const CountriesAll = await Country.findAll()
     if(!CountriesAll.length){
