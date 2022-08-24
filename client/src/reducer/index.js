@@ -81,7 +81,9 @@ export default function rootReducer(state = initialState, action){
                 }
 
         case ORDEN_POBLACION:
+            // eslint-disable-next-line
             let ordenPoblacion = action.payload === POBLACION_MAYOR ? state.filteredCountry.sort((a, b)=>{
+                
                 if (a.poblacion < b.poblacion) {
                     return 1;
                 }

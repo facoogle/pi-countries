@@ -19,6 +19,7 @@ function validate(input) {
   }
   else if (!input.dificultad) {
     errors.dificultad = "Tienes que agregar una duracion";
+    // eslint-disable-next-line
   } else if (!input.temporada || input.temporada == "Temporada") {
     errors.temporada = "Selecciona una temporada";
   } else if (input.countryId === []) {
@@ -173,7 +174,8 @@ export default function ActivityCreate() {
               {input.countryId.map((country) => (
                 <div className='countrieAndButton'>
                   <input className='BotonBorrar' type='button' value='Eliminar' onClick={() => handleDelete(country)}/>
-                  {countries.map((el)=> (el.id==country)?(<div><p>{el.name}</p><img src={el.img} width="55px" height="35px"/></div>):(<div></div>))}
+                  {/*eslint-disable-next-line */}
+                  {countries.map((el)=> (el.id===country)?(<div><p>{el.name}</p><img src={el.img} width="55px" height="35px"/></div>):(<div></div>))}
                   
                 </div>
                 

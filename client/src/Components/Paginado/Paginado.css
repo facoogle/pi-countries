@@ -16,6 +16,7 @@
   justify-content: center;
   align-items: center;
   list-style: none;
+  padding: 10px;
 }
 
 .PaginadoNum {
@@ -31,10 +32,12 @@
   height: 3vh;
   color: #ffffff;
   font-size: 15px;
-  background: black;
+  background-color: #43cea2;  /* fallback for old browsers */
+  background-color: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+  background-color: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.PaginadoNum:hover{
+.PaginadoNum2:hover{
   background-color: #43cea2;  /* fallback for old browsers */
   background-color: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
   background-color: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -43,3 +46,22 @@
 
 
 
+.PaginadoNum2 {
+  
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around ;
+  margin: 0 7px 0 2px;
+  cursor: pointer;
+  
+  border-radius: 3px;
+  height:2vh;
+  color: #ffffff;
+  font-size: 15px;
+  background: black;
+}
+
+.li{
+  padding: 20px;
+}

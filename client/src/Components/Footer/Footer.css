@@ -1,0 +1,18 @@
+.Footer{
+    background: #43cea2;  
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  
+    background: linear-gradient(to right, #185a9d, #43cea2); 
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.Footer p{
+    color: white;
+}
+
+.Footer img{
+    max-width: 25px;
+    padding-left: 5px;
+    padding-top: 5px;
+}

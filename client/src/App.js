@@ -6,6 +6,7 @@ import Home from './Components/Home/Home';
 import ActivityCreate from './Components/ActivityCreate/ActivityCreate.jsx';
 
 
+
 import Detalles from './Components/Detalles/Detalles';
 
 function App() {

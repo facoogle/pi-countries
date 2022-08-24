@@ -234,6 +234,8 @@ function handleSelectContinente(e){
         countriesPerPage={countriesPerPage}
         countries={countries.length}
         paginado={paginado}
+        currentPage = {currentPage}
+        currentCountry = {currentCountry}
         
         
       />

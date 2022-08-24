@@ -16,14 +16,14 @@
 }
 
 .cardsBox{
-    background-color: green;
+    background-color: whitesmoke;
     display: flex;
     flex-wrap: wrap;
     height: 90%;
     justify-content: space-evenly;
     margin: 10px ;
-    padding-top: 50px;
-    padding-bottom: 120px;
+    padding-top: 10px;
+    
 }
 
 .filterAndOrder{
