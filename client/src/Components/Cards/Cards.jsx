@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
+import Loading from "./img/732.gif"
+
 import { getCountries, getActivities, ordenPorNombre, ordenPorPoblacion , filterByActivity, countryByName, 
   filtrarPorContinente } from "../../actions/actions";
 
@@ -206,7 +208,10 @@ function handleSelectContinente(e){
 
       <div className='cardsBox'>  
               
-        { !countries.length?<h1>CARGANDO</h1>:
+        { !countries.length?<div>
+          <h1>CARGANDO</h1>
+          <img src={Loading} alt="Loading.." />
+          </div>:
         currentCountry?.map((country) => {
             
           return (
